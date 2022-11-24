@@ -23,12 +23,12 @@ padding: 0px;
 
 .nav-menu > ul{
     display: flex ;
-    justify-content: right;
 }
 .nav-menu > ul >li{
     position: relative;
     white-space: nowrap;
     padding: 10px 0 10px 40px;
+    justify-content: left;
    
 }
 .nav-menu a{
@@ -66,10 +66,11 @@ width: 130px;
 height: 100px;
 }
 .account-btn{
+    text-decoration: none;
     margin-left: 25px;
     color: black;
     border-radius: 4px;
-    padding: 6px 25px 8px 25px;
+    padding: 8px 25px;
     white-space: nowrap;
     transition: 0.3s;
     font-size: 13px;
@@ -77,5 +78,8 @@ height: 100px;
     text-transform: uppercase;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
-    borer: 2px solid #7ae721;
+    border: 2px solid #7ae721;
+}
+.account-btn:hover{
+    background-color: #71e215;
 }
