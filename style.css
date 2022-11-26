@@ -11,7 +11,8 @@ a:hover{
     }
 
 #header{
-background-color: aliceblue;
+width: 100%;
+background-color: antiquewhite;
 padding: 0px;
 }
 
@@ -23,12 +24,11 @@ padding: 0px;
 
 .nav-menu > ul{
     display: flex ;
-
 }
 .nav-menu > ul >li{
     position: relative;
     white-space: nowrap;
-    padding: 10px 0 10px 40px;
+    padding: 5px 0 5px 30px;
    
 }
 .nav-menu a{
@@ -37,10 +37,10 @@ padding: 0px;
     text-decoration: none;
     color: black;
     transition: 0.3s;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500px;
     font-family: "Roboto", sans-serif;
-    padding: 0 4px;
+    padding: 0 20px;
     text-transform: uppercase;
 
 }
@@ -62,8 +62,9 @@ padding: 0px;
 }
 
 #header .container img{
-width: 130px;
-height: 100px;
+width: 90px;
+height: 80px;
+padding-left: 15px;
 }
 .account-btn{
     text-decoration: none;
@@ -83,3 +84,20 @@ height: 100px;
 .account-btn:hover{
     background-color: #71e215;
 }
+.container{
+    padding: 0px;
+}
+.breadcrumb{
+    padding-top: 90px;
+    font-size: 10px;
+}
+.container1{
+    padding:0px;
+    background-color: whitesmoke;
+    height: 100vh;
+} 
+.container2{
+    padding:0px;
+    background-color: antiquewhite;
+    height: 100vh;
+} 
